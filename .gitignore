@@ -1,0 +1,20 @@
+*.pyc
+output/
+
+# Ignore LaTeX auxiliary files
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Ignore the directory for the trained model
+trained_model*/
+eval_output*/
